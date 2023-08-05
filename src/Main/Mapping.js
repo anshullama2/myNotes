@@ -6,8 +6,6 @@ import Navbar from '../Components/Navbar'
 import AddNote from '../Components/AddNote'
 import UserRegis from '../UserForm/UserRegis'
 import UserLogin from '../UserForm/UserLogin'
-// import { database } from '../Components/firebase'
-// import { onValue, push, ref, set } from 'firebase/database'
 
 
 
