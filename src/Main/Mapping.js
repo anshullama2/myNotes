@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import NoPage from '../Components/NoPage'
@@ -6,8 +6,8 @@ import Navbar from '../Components/Navbar'
 import AddNote from '../Components/AddNote'
 import UserRegis from '../UserForm/UserRegis'
 import UserLogin from '../UserForm/UserLogin'
-import { database } from '../Components/firebase'
-import { onValue, push, ref, set } from 'firebase/database'
+// import { database } from '../Components/firebase'
+// import { onValue, push, ref, set } from 'firebase/database'
 
 
 
