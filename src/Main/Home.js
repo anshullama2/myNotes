@@ -13,7 +13,7 @@ function Home() {
 
                 <Link to={"/addnote"} className="card d-flex justify-content-center align-items-center  m-4" style={{ width: "20rem" }} >
                     <AddCircleOutlineIcon className='text-dark fw-thin' style={{ width: "8rem", height: "8rem" }} />
-                    <h5 className='text-primary mt-3'>Add Your Notes</h5>
+                    <h5 className='text-primary mt-3'>Add Your Notes Here</h5>
                 </Link>
 
                 <Note />
