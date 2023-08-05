@@ -20,25 +20,6 @@ function Mapping() {
 
     const darkMode = () => {
 
-        // push(ref(database, `themeMode`), mode)
-        //     .then(() => {
-        //         alert("Data Inserted");
-        //     }).catch((e) => {
-        //         alert("Data Inserted"); 
-        //     })
-
-        // onValue(ref(database, `themeMode`), (snapshot) => {
-        //     if (snapshot.val() != null) {
-        //         console.log(Object.keys(snapshot)   )
-                
-        //     //   setRegis({ ...snapshot.val() });
-        //     } else {
-        //         alert("elsepart");
-        //     //   setRegis({});
-        //     }
-        //   });
-
-
         if (mode === "dark") {
             setMode("light");
             document.body.style.backgroundColor = "#fff";
